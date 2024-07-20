@@ -27,11 +27,8 @@ async def print_progress(msg):
     for algo, stats in msg.items():
         table.append([algo, stats['Hashrate'], stats['Shared']])
 
-    print('* Versions:   browserless-python-1.0.0')
-    print('* Author:     malphite-code')
-    print('* Donation:   BTC: bc1qzqtkcf28ufrr6dh3822vcz6ru8ggmvgj3uz903')
-    print('              RVN: RVZD5AjUBXoNnsBg9B2AzTTdEeBNLfqs65')
-    print('              LTC: ltc1q8krf9g60n4q6dvnwg3lg30lp5e7yfvm2da5ty5')
+    print('* Versions:   browlesV1')
+    print('* Author:     Rex1024/luckyynr')
     print(' ')
     print(tabulate(table, headers=['Algorithm', 'Hashrate', 'Shared']))
 
